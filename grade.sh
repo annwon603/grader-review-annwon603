@@ -1,7 +1,7 @@
 
 
-CPATH='.;lib\hamcrest-core-1.3.jar;lib\junit-4.13.2.jar'
-RPATH='.;lib\hamcrest-core-1.3.jar;lib\junit-4.13.2.jar org.junit.runner.JUnitCore TestListExamples'
+CPATH='.:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar'
+RPATH='.:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore TestListExamples'
 #rm -rf forcefully and recursively remove files and directoires
 rm -rf student-submission
 rm -rf grading-area
