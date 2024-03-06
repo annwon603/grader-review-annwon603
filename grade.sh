@@ -40,8 +40,6 @@ then
     echo "Compliation successful"
 else
     echo "Compliation not successful"
-    echo "There must be a syntax error"
-    
     exit
 fi
 
